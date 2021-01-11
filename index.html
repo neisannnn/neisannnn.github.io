@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nathan Longour - Développeur web</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+	<!-- HEADER -->
+	<header>
+		<img id="header-logo" src="img/logo.png">
+		<nav id="header-nav">
+			<h3 id="nav-title-1" class="nav-title">Mes projets</h3>
+			<h3 id="nav-title-2" class="nav-title">À propos</h3>
+			<h3 id="nav-title-3" class="nav-title">Me contacter</h3>
+		</nav>
+		<div id="header-nav-button" onclick="navClick();">
+			<div id="header-nav-btn-line-1" class="header-nav-btn-line"></div>
+			<div id="header-nav-btn-line-2" class="header-nav-btn-line"></div>
+		</div>
+	</header>
+	<div id="header-bg"></div>
+
+	<!-- CONTENT -->
+	<content>
+		<h1 style="margin-bottom: 8%; padding-top: 12%;">Je conçois et développe des<br>outils pour le web.</h1>
+		<h3 class="ex">Bienvenue sur mon portfolio !</h3>
+		<h3 style="margin-bottom: 35%;">Vous pouvez découvrir mes différents projets ou en apprendre un peu plus sur moi.</h3>
+		<h2 style="margin-bottom: 10%;" class="content-title" data-scroll>Mes projets</h2>
+
+		<div id="project-box-1" class="project-box" data-scroll>
+			<div class="project-info">
+				<h3 class="project-title">Galaxy Swiss<br>Bourdin</h3>
+				<h2 class="project-type">Site web pour un<br>projet professionnel<br>encadré.</h2>
+				<div id="project-btn-1" class="project-btn">
+					<div id="inside-circle-1" class="inside-circle"></div>
+					<h3 id="project-btn-txt-1" class="project-btn-txt">voir le projet</h3>
+				</div>
+			</div>
+			<img class="project-img" src="img/projet-1.png">
+		</div>
+
+		<div id="project-box-2" class="project-box" data-scroll>
+			<div class="project-info">
+				<h3 class="project-title">Maison Des<br>Ligues</h3>
+				<h2 class="project-type">Site web pour un<br>projet professionnel<br>encadré.</h2>
+				<div id="project-btn-2" class="project-btn">
+					<div id="inside-circle-2" class="inside-circle"></div>
+					<h3 id="project-btn-txt-2" class="project-btn-txt">voir le projet</h3>
+				</div>
+			</div>
+			<img class="project-img" src="img/projet-2.png">
+		</div>
+
+		<div id="project-box-3" class="project-box" data-scroll>
+			<div class="project-info">
+				<h3 class="project-title">Calc Pack</h3>
+				<h2 class="project-type">Application web d'aide<br>à la conception<br>pour L'Oréal.</h2>
+				<div id="project-btn-3" class="project-btn">
+					<div id="inside-circle-3" class="inside-circle"></div>
+					<h3 id="project-btn-txt-3" class="project-btn-txt">voir le projet</h3>
+				</div>
+			</div>
+			<img class="project-img" src="img/projet-3.png">
+		</div>
+
+		<div id="more-projects" class="more-projects">
+			<div id="more-projects-bg"></div>
+			<h3 id="more-projects-text" class="more-projects-text">Voir + de projets</h3>
+		</div>
+
+		<h2 style="margin-bottom: 2%;" class="content-title" data-scroll>À propos</h2>
+		<h3 style="margin-bottom: 10%;" class="content-para" data-scroll>Salut! Je m'appelle Nathan Longour, je suis un étudiant / développeur web passionné. J'aime l'idée de concevoir un projet de A à Z c'est pourquoi j'essaye de m'améliorer et d'apprendre de nouvelles choses qui me permettent de m'améliorer chaque jours.</h3>
+		<h2 style="margin-bottom: 2%;" class="content-title" data-scroll>Développement web</h2>
+		<h3 style="margin-bottom: 10%;" class="content-para" data-scroll>Le développement web c'est le processus de conception des outils accéssible par le web. Ce domaine me passionne depuis le lycée et depuis je ne cesse de vouloir en apprendre plus, les possibilitées sont infinies et cela permet de laisser place à la créativité. J'aime apprendre par moi même en faisant plusieurs projets personnel, c'est selon moi la meilleure façon de s'expertiser dans ce domaine.</h3>
+		<h2 style="margin-bottom: 2%;" class="content-title" data-scroll>Web design</h2>
+		<h3 style="margin-bottom: 10%;" class="content-para" data-scroll>Le web design est le processus de conception graphique mais cela passe aussi par l'expérience de l'utilisateur, c'est un domaine très spécifique et j'aimerai pouvoir en apprendre plus au cours de mes études pour compléter mes compétences. J'ai appris quelques notions qui me permettent de produire des conceptions correcte mais j'aimerai m'améliorer plus dans ce domaine, en effet le design devient de plus en plus important et surtout dans le web.</h3>
+
+		<div id="more-infos" class="more-infos">
+			<div id="more-infos-bg"></div>
+			<h3 id="more-infos-text" class="more-infos-text">En savoir +</h3>
+		</div>
+
+		<h2 style="margin-bottom: 2%;" class="content-title" data-scroll>Veille</h2>
+		<h3 style="margin-bottom: 4%;" class="content-para" data-scroll>La veille technologique consiste à s'informer en continu sur les nouveautés du secteur informatique, les inventions des concurrents ainsi que les nouvelles technologies et ce dans le but d'être le meilleur dans son domaine.</h3>
+		<h3 style="margin-bottom: 10%;" class="content-para" data-scroll>J'ai choisi comme sujets la 5G et la sécurisation des applications, pour suivre cette veille j'ai utilisé Flipboard qui est un agrégateur de contenu. Cet outil me permet de selectionner les flux qui m'intéressent sur différents sites d'informations afin de suivre ma veille efficacement.</h3>
+
+		<div class="veille-5g" style="margin-bottom: 10%;" data-scroll>
+			
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2019</h3>
+					<h3 class="article-title">5G & écologie</h3>
+				</div>
+				<img class="veille-img" src="img/parisien.png">
+			</div>
+
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2020</h3>
+					<h3 class="article-title">5G en France</h3>
+				</div>
+				<img class="veille-img" src="img/echos.png">
+			</div>
+
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2020</h3>
+					<h3 class="article-title">5G / santé</h3>
+				</div>
+				<img class="veille-img" src="img/france24.png">
+			</div>
+
+		</div>
+
+		<div class="veille-secu" style="margin-bottom: 20%;" data-scroll>
+			
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2019</h3>
+					<h3 class="article-title">Sécu des apps</h3>
+				</div>
+				<img class="veille-img" src="img/parisien.png">
+			</div>
+
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2019</h3>
+					<h3 class="article-title">Sécu des apps</h3>
+				</div>
+				<img class="veille-img" src="img/echos.png">
+			</div>
+
+			<div class="veille-article-div">
+				<div class="article-info">
+					<h3 class="article-date">2020</h3>
+					<h3 class="article-title">Sécu des apps</h3>
+				</div>
+				<img class="veille-img" src="img/france24.png">
+			</div>
+
+		</div>
+
+	</content>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="footer-line"></div>
+		<div class="footer-logo">
+			<ion-icon class="footer-icons" name="logo-github"></ion-icon>
+			<ion-icon class="footer-icons" name="logo-linkedin"></ion-icon>
+			<ion-icon class="footer-icons" name="logo-dribbble"></ion-icon>
+		</div>
+		<h3 style="margin-top: 3%;">© 2021 - Nathan Longour - Développeur web</h3>
+	</footer>
+<script type="text/javascript" src="js/scroll-out.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
