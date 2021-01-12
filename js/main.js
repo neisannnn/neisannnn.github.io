@@ -123,43 +123,43 @@ moreInfosDiv.addEventListener("mouseleave", function( event ) {
 
 
 projectBtn1.addEventListener("mouseenter", function( event ) {
-	insideCircle1.style.width = "124px";
-	insideCircle1.style.height = "124px";
-	insideCircle1.style.borderRadius = "62px";
-	textBtn1.style.letterSpacing = "0px";
+	insideCircle1.style.width = "6vw";
+	insideCircle1.style.height = "6vw";
+	insideCircle1.style.borderRadius = "3vw";
+	textBtn1.style.letterSpacing = "0vw";
 }, false);
 
 projectBtn1.addEventListener("mouseleave", function( event ) {
-	insideCircle1.style.width = "0px";
-	insideCircle1.style.height = "0px";
-	insideCircle1.style.borderRadius = "0px";
-	textBtn1.style.letterSpacing = "5px";
+	insideCircle1.style.width = "0vw";
+	insideCircle1.style.height = "0vw";
+	insideCircle1.style.borderRadius = "0vw";
+	textBtn1.style.letterSpacing = "0.2vw";
 }, false);
 
 projectBtn2.addEventListener("mouseenter", function( event ) {
-	insideCircle2.style.width = "124px";
-	insideCircle2.style.height = "124px";
-	insideCircle2.style.borderRadius = "62px";
-	textBtn2.style.letterSpacing = "0px";
+	insideCircle2.style.width = "6vw";
+	insideCircle2.style.height = "6vw";
+	insideCircle2.style.borderRadius = "3vw";
+	textBtn2.style.letterSpacing = "0vw";
 }, false);
 
 projectBtn2.addEventListener("mouseleave", function( event ) {
-	insideCircle2.style.width = "0px";
-	insideCircle2.style.height = "0px";
-	insideCircle2.style.borderRadius = "0px";
-	textBtn2.style.letterSpacing = "5px";
+	insideCircle2.style.width = "0vw";
+	insideCircle2.style.height = "0vw";
+	insideCircle2.style.borderRadius = "0vw";
+	textBtn2.style.letterSpacing = "0.2vw";
 }, false);
 
 projectBtn3.addEventListener("mouseenter", function( event ) {
-	insideCircle3.style.width = "124px";
-	insideCircle3.style.height = "124px";
-	insideCircle3.style.borderRadius = "62px";
-	textBtn3.style.letterSpacing = "0px";
+	insideCircle3.style.width = "6vw";
+	insideCircle3.style.height = "6vw";
+	insideCircle3.style.borderRadius = "3vw";
+	textBtn3.style.letterSpacing = "0vw";
 }, false);
 
 projectBtn3.addEventListener("mouseleave", function( event ) {
-	insideCircle3.style.width = "0px";
-	insideCircle3.style.height = "0px";
-	insideCircle3.style.borderRadius = "0px";
-	textBtn3.style.letterSpacing = "5px";
+	insideCircle3.style.width = "0vw";
+	insideCircle3.style.height = "0vw";
+	insideCircle3.style.borderRadius = "0vw";
+	textBtn3.style.letterSpacing = "0.2vw";
 }, false);
