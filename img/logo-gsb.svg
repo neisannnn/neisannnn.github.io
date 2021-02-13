@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="869" height="319" viewBox="0 0 869 319">
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-512 -345)">
+    <text id="GSB" transform="translate(902 596)" fill="#3c40c6" font-size="250" font-family="Bender-BlackItalic, Bender" font-weight="800" font-style="italic"><tspan x="0" y="0">GSB</tspan></text>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(800 474)" fill="#3c40c6"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(771 389)" fill="#3c40c6"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(771 559)" fill="#3c40c6"/>
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(682 604)" fill="#575fcf"/>
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(682 345)" fill="#575fcf"/>
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(623 534) rotate(180)" fill="#05c46b"/>
+    <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(652 619) rotate(180)" fill="#05c46b"/>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(652 449) rotate(180)" fill="#05c46b"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(755 489)" fill="#575fcf"/>
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(740 445)" fill="#575fcf"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(740 532)" fill="#575fcf"/>
+    <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(542 523) rotate(180)" fill="#0be881"/>
+    <ellipse id="Ellipse_13" data-name="Ellipse 13" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(557 567) rotate(180)" fill="#0be881"/>
+    <ellipse id="Ellipse_14" data-name="Ellipse 14" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(557 480) rotate(180)" fill="#0be881"/>
+  </g>
+</svg>
